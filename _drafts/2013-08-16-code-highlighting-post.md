@@ -80,15 +80,15 @@ end
 
 To modify styling and highlight colors edit `/assets/less/coderay.less` and compile `main.less` with your favorite preprocessor. Or edit `main.css` if that's your thing, the classes you want to modify all begin with `.coderay`. Line numbers and a few other things can be modified in `_config.yml` under `coderay`.
 
-~~~ css
+```css
 #container {
     float: left;
     margin: 0 -240px 0 0;
     width: 100%;
 }
-~~~
+```
 
-~~~ html
+```html
 {% raw %}<nav class="pagination" role="navigation">
     {% if page.previous %}
         <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
@@ -97,9 +97,9 @@ To modify styling and highlight colors edit `/assets/less/coderay.less` and comp
         <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
     {% endif %}
 </nav><!-- /.pagination -->{% endraw %}
-~~~
+```
 
-~~~ ruby
+```ruby
 module Jekyll
   class TagIndex < Page
     def initialize(site, base, dir, tag)
@@ -117,4 +117,4 @@ module Jekyll
     end
   end
 end
-~~~
+```
