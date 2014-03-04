@@ -54,4 +54,25 @@
   })();
 </script>
 {% endif %}
-{% if page.comments %}{% include disqus_comments.html %}{% endif %}
+{% if site.disqus_shortname and page.comments %}{% include disqus_comments.html %}{% endif %}
+<script src="{{ site.url }}/assets/js/github.js"></script>
+
+<script type="text/javascript">
+
+  var excludes = [
+    'master-lincoln.github.io'
+  ];
+
+  var own = function(repo) {
+    return excludes.indexOf(repo.name) === -1 && !repo.fork;
+  };
+
+  var forked = function(repo) {
+    return excludes.indexOf(repo.name) === -1 && repo.fork;
+  };
+
+  $(function() {
+      $("#my-github-projects").loadRepositories('master-lincoln', own);
+      $("#forked-github-projects").loadRepositories('master-lincoln', forked);
+  });
+</script>
