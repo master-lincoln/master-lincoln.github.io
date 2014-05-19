@@ -6,9 +6,11 @@ comments: true
 
 ## Improving Shortcut usage in your IDE
 
-Using Keyboard shortcuts to navigate within your editor or IDE is usually the fastest way to work. But sitting down and learning all the shortcuts seems tedious.
+Using keyboard shortcuts to navigate within your editor or IDE is usually the fastest way to work. But sitting down and learning all the shortcuts to avoid reaching out to the mouse seems tedious.
 
 But wait! There's probably a plugin for that.
+And indeed there are a couple of plugins the display a popup containing the corresponding keyboard shortcut if you just used the mouse for an action.
+Time to get it into muscle memory!
 
 **IntelliJ IDEA**
 [Key Promoter](http://plugins.jetbrains.com/plugin/4455?pr=idea)
