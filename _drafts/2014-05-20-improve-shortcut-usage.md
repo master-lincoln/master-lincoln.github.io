@@ -14,5 +14,5 @@ But wait! There's probably a plugin for that.
 [Key Promoter](http://plugins.jetbrains.com/plugin/4455?pr=idea)
 
 **Eclipse**
-[MouseFeed](https://github.com/heeckhau/mousefeed)
+[MouseFeed](https://marketplace.eclipse.org/content/mousefeed)
 The original hosted on SourceForge has been discontinued, but this fork picked it up.
